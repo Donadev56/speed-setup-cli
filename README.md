@@ -6,7 +6,7 @@ npm install -g speed-setup-cli
 
 # SPEED - TypeScript & Node.js Project Setup CLI
 
-![SPEED Logo](https://opennode.tech/logo.png) <!-- Replace with your actual logo URL -->
+![SPEED Logo](https://image.pinky.exchange/speed.png) <!-- Replace with your actual logo URL -->
 
 **SPEED** is a powerful Command Line Interface (CLI) tool designed to streamline the setup of TypeScript and Node.js development environments. With SPEED, configuring your backend project becomes effortless—install essential dependencies and generate necessary configuration files with just a few commands.
 
@@ -228,7 +228,7 @@ This project is licensed under the [MIT License](LICENSE).
 > Ensure you have a \`LICENSE\` file in your repository containing the MIT License text.
 
 ---
-
+![SPEED Logo](https://image.pinky.exchange/OPENNODE.png) <!-- Replace with your actual logo URL -->
 ## Author
 
 **DEVOUE-LI-TCHIBENI Dona-Dieu-Talliane**  
