@@ -1,4 +1,9 @@
 
+```
+npm install -g speed-setup-cli
+```
+
+
 # SPEED - TypeScript & Node.js Project Setup CLI
 
 ![SPEED Logo](https://opennode.tech/logo.png) <!-- Replace with your actual logo URL -->
