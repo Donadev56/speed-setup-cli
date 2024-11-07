@@ -41,36 +41,32 @@ Before using SPEED, ensure you have the following installed on your machine:
 - **Node.js**: Version 12 or higher. [Download Node.js](https://nodejs.org/)
 - **npm**: Comes bundled with Node.js. Ensure it's updated to the latest version:
 
-\`\`\`bash
+```
 npm install -g npm
-\`\`\`
-
+```
 ---
 
 ## Installation
 
 Install **SPEED** globally using npm to access it from anywhere in your terminal:
 
-\`\`\`bash
+```
 npm install -g speed-setup-cli
-\`\`\`
-
+```
 > **Note:** You might need administrator privileges to install global packages. Use \`sudo\` on Unix-based systems if necessary:
 
-\`\`\`bash
+```
 sudo npm install -g speed-setup-cli
-\`\`\`
-
+```
 ---
 
 ## Usage
 
 After installation, initiate the setup process by running:
 
-\`\`\`bash
+```
 speed
-\`\`\`
-
+```
 ### Interactive Setup
 
 When you execute \`speed\`, you'll be guided through a series of prompts to customize your project setup:
@@ -79,16 +75,16 @@ When you execute \`speed\`, you'll be guided through a series of prompts to cust
 2. **Source Folder Name**: Specify the name of the source folder (default is \`src\`).
 3. **Entry File**: Define the entry file for your application (default is \`server.ts\`).
 4. **Feature Installation**:
-   - \`Y\`: Install all essential features (Express, dotenv, Jest, ESLint, Prettier).
-   - \`N\`: Skip the installation of additional features.
-   - \`C\`: Choose specific features to install.
+   - `Y`: Install all essential features (Express, dotenv, Jest, ESLint, Prettier).
+   - `N`: Skip the installation of additional features.
+   - `C`: Choose specific features to install.
 5. **Module System**:
-   - \`1\`: CommonJS
-   - \`2\`: ES Modules
+   - `1`: CommonJS
+   - `2`: ES Modules
 
 #### Example Session
 
-\`\`\`bash
+```
 $ speed
 Hello Developer! 😃👋 Let's configure the backend of your amazing project. 🚀
 =======================================================================
@@ -128,26 +124,26 @@ Enter "1" for CommonJS and "2" for ES Modules: **2**
 
 **Next Steps:**
 
-\`\`\`bash
+```
 cd my_project
 npm run build
 npm start
-\`\`\`
 
+```
 Navigate to [http://localhost:3000](http://localhost:3000)
 
 🎉 **All done!** You're ready to start building your project.
 
 ❤️ Thanks for using Open Node Services! Visit our site: [https://opennode.tech](https://opennode.tech)
-\`\`\`
-
+```
 ---
 
 ## Project Structure
 
 After running SPEED, your project directory will have the following structure:
 
-\`\`\`bash
+```
+
 my_project/
 ├── src/
 │   └── server.ts
@@ -160,8 +156,8 @@ my_project/
 ├── tsconfig.json
 ├── .gitignore
 └── README.md
-\`\`\`
 
+```
 - **src/**: Contains the source TypeScript files.
 - **dist/**: Compiled JavaScript files after building the project.
 - **.env**: Environment variables.
@@ -180,28 +176,21 @@ my_project/
 
 - **build**: Compiles TypeScript into JavaScript.
 
-  \`\`\`bash
-  npm run build
-  \`\`\`
-
+``` 
+ npm run build
+```
 - **start**: Runs the compiled JavaScript code.
 
-  \`\`\`bash
-  npm start
-  \`\`\`
-
+```  npm start
+```
 - **dev**: Starts development mode with nodemon and ts-node for automatic reloading.
 
-  \`\`\`bash
-  npm run dev
-  \`\`\`
-
+```  npm run dev
+```
 - **test**: Runs tests using Jest (if installed).
 
-  \`\`\`bash
-  npm test
-  \`\`\`
-
+```  npm test
+```
 ---
 
 ## Contributing
@@ -213,22 +202,16 @@ Contributions are welcome! If you find a bug or have a feature request, please o
 1. **Fork the Repository**
 2. **Create a New Branch**
 
-   \`\`\`bash
-   git checkout -b feature/YourFeature
-   \`\`\`
-
+```   git checkout -b feature/YourFeature
+```
 3. **Commit Your Changes**
 
-   \`\`\`bash
-   git commit -m "Add some feature"
-   \`\`\`
-
+```   git commit -m "Add some feature"
+```
 4. **Push to the Branch**
 
-   \`\`\`bash
-   git push origin feature/YourFeature
-   \`\`\`
-
+```   git push origin feature/YourFeature
+```
 5. **Open a Pull Request**
 
 ---
@@ -244,7 +227,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Author
 
 **DEVOUE-LI-TCHIBENI Dona-Dieu-Talliane**  
-User: \`donadev56\`
+User: `donadev56`
 
 Made with ♥ by [Open Node Services](https://opennode.tech)
 
@@ -254,32 +237,25 @@ Made with ♥ by [Open Node Services](https://opennode.tech)
 
 1. **Clone the Repository**
 
-   \`\`\`bash
-   git clone https://github.com/donadev/speed-setup-cli.git
-   \`\`\`
-
+```   git clone  https://github.com/Donadev56/speed-setup-cli.git
+```
 2. **Navigate to the Directory**
 
-   \`\`\`bash
-   cd speed-setup-cli
-   \`\`\`
-
+```   cd speed-setup-cli
+```
 3. **Install Dependencies**
 
-   \`\`\`bash
-   npm install
-   \`\`\`
-
+```   npm install
+```
 4. **Run the CLI**
 
-   \`\`\`bash
-   speed
-   \`\`\`
-
+```   speed
+```
 ---
 
-For any questions or support, feel free to reach out via our [GitHub Issues](https://github.com/your-username/speed-setup-cli/issues) or visit our [website](https://opennode.tech).
+For any questions or support, feel free to reach out via our [GitHub Issues]( https://github.com/Donadev56/speed-setup-cli.git) or visit our [website](https://opennode.tech).
 
 ---
 
 © 2024 Open Node Services. All rights reserved.
+
